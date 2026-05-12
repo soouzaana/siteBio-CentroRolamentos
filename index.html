@@ -228,11 +228,22 @@
   .btn-icon {
     width: 38px;
     height: 38px;
-    border-radius: 10px;
+    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
+    overflow: hidden;
+    border: 2px solid rgba(255,255,255,0.15);
+  }
+
+  .btn-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center -0.1rem;
+    border-radius: 50%;
+    transform: scale(1.6);
   }
   .btn-wa .btn-icon {
     background: rgba(255,255,255,0.12);
@@ -264,6 +275,12 @@
     font-weight: 400;
     color: rgba(255,255,255,0.55);
     letter-spacing: 0.02em;
+  }
+
+  .btn-sub svg{
+    color: rgba(255,255,255,0.55);
+    vertical-align: middle;
+    margin-bottom: 0.2rem;
   }
 
   .btn-arrow {
@@ -379,34 +396,46 @@
   <!-- WHATSAPP BUTTONS -->
   <div class="btn-group">
     <a href="https://wa.me/5569992420557" class="btn btn-wa" target="_blank" rel="noopener">
-      <div class="btn-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-source-location="components/bio/WhatsAppButton:18:8" data-dynamic-content="false"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path></svg>
+      <div class="btn-icon">       
+        <img src="./assets/genilson.png" alt="">
       </div>
       <div class="btn-text">
         <span class="btn-name">Vendedor Genilson</span>
-        <span class="btn-sub">Fale pelo WhatsApp</span>
+        <span class="btn-sub"> 
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-source-location="components/bio/WhatsAppButton:18:8" data-dynamic-content="false"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path>
+          </svg>
+          Fale pelo WhatsApp
+        </span>
       </div>
       <svg class="btn-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
     </a>
 
     <a href="https://wa.me/5569984636763" class="btn btn-wa" target="_blank" rel="noopener">
       <div class="btn-icon">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-source-location="components/bio/WhatsAppButton:18:8" data-dynamic-content="false"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path></svg>
+        <img src="./assets/lua.png" alt="">
       </div>
       <div class="btn-text">
-        <span class="btn-name">Vendedora Lua</span>
-        <span class="btn-sub">Fale pelo WhatsApp</span>
+        <span class="btn-name">Vendedor Luã</span>
+       <span class="btn-sub"> 
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-source-location="components/bio/WhatsAppButton:18:8" data-dynamic-content="false"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path>
+          </svg>
+          Fale pelo WhatsApp
+        </span>
       </div>
       <svg class="btn-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
     </a>
 
     <a href="https://wa.me/5569992720975" class="btn btn-wa" target="_blank" rel="noopener">
       <div class="btn-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-source-location="components/bio/WhatsAppButton:18:8" data-dynamic-content="false"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path></svg>
+        <img src="./assets/jorge.png" alt="">
       </div>
       <div class="btn-text">
         <span class="btn-name">Vendedor Jorge</span>
-        <span class="btn-sub">Fale pelo WhatsApp</span>
+        <span class="btn-sub"> 
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-source-location="components/bio/WhatsAppButton:18:8" data-dynamic-content="false"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path>
+          </svg>
+          Fale pelo WhatsApp
+        </span>
       </div>
       <svg class="btn-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
     </a>
